@@ -1,0 +1,17 @@
+appname ="gochat" 
+
+[mysql]
+host = "127.0.0.1"
+name = "chat"
+password = "37bHr84NSJGtdNcs"
+port = 3306
+tablePrefix = ""
+user = "chat"
+
+[staticPath]
+filePath = "web/static/file/"
+
+[msgChannelType]
+channelType = "kafka"
+kafkaHosts = "127.0.0.1:9092"
+kafkaTopic = "heima"
